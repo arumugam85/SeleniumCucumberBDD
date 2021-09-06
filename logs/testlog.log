@@ -1,0 +1,346 @@
+2020-12-08 12:09:41,484 - nopCommerce Application -INFO -***********Launch Chrome Browser*************
+2020-12-08 12:09:41,484 [main] INFO nopCommerce Application - ***********Launch Chrome Browser*************
+2020-12-08 12:09:43,725 - nopCommerce Application -INFO -***********Launch nopCommerce Application*************
+2020-12-08 12:09:43,725 [main] INFO nopCommerce Application - ***********Launch nopCommerce Application*************
+2020-12-08 12:09:48,902 - nopCommerce Application -INFO -***********Enter Login Details*************
+2020-12-08 12:09:48,902 [main] INFO nopCommerce Application - ***********Enter Login Details*************
+2020-12-08 12:09:49,640 - nopCommerce Application -INFO -***********Click Login button*************
+2020-12-08 12:09:49,640 [main] INFO nopCommerce Application - ***********Click Login button*************
+2020-12-08 12:09:58,084 - nopCommerce Application -INFO -***********Verify Page Title*************
+2020-12-08 12:09:58,084 [main] INFO nopCommerce Application - ***********Verify Page Title*************
+2020-12-08 12:10:01,127 - nopCommerce Application -INFO -***********Click Logout*************
+2020-12-08 12:10:01,127 [main] INFO nopCommerce Application - ***********Click Logout*************
+2020-12-08 12:10:05,466 - nopCommerce Application -INFO -***********Closing Browser*************
+2020-12-08 12:10:05,466 [main] INFO nopCommerce Application - ***********Closing Browser*************
+2020-12-08 12:10:09,997 - nopCommerce Application -INFO -***********Launch Chrome Browser*************
+2020-12-08 12:10:09,997 [main] INFO nopCommerce Application - ***********Launch Chrome Browser*************
+2020-12-08 12:10:12,217 - nopCommerce Application -INFO -***********Launch nopCommerce Application*************
+2020-12-08 12:10:12,217 [main] INFO nopCommerce Application - ***********Launch nopCommerce Application*************
+2020-12-08 12:10:17,783 - nopCommerce Application -INFO -***********Enter Login Details*************
+2020-12-08 12:10:17,783 [main] INFO nopCommerce Application - ***********Enter Login Details*************
+2020-12-08 12:10:18,493 - nopCommerce Application -INFO -***********Click Login button*************
+2020-12-08 12:10:18,493 [main] INFO nopCommerce Application - ***********Click Login button*************
+2020-12-08 14:35:53,353 - nopCommerce -INFO -***********Launch Chrome Browser*************
+2020-12-08 14:35:53,353 [main] INFO nopCommerce - ***********Launch Chrome Browser*************
+2020-12-08 14:35:55,553 - nopCommerce -INFO -***********Launch nopCommerce Application*************
+2020-12-08 14:35:55,553 [main] INFO nopCommerce - ***********Launch nopCommerce Application*************
+2020-12-08 14:36:01,382 - nopCommerce -INFO -***********Enter Login Details*************
+2020-12-08 14:36:01,382 [main] INFO nopCommerce - ***********Enter Login Details*************
+2020-12-08 14:36:05,765 - nopCommerce -INFO -***********Launch Chrome Browser*************
+2020-12-08 14:36:05,765 [main] INFO nopCommerce - ***********Launch Chrome Browser*************
+2020-12-08 14:36:07,979 - nopCommerce -INFO -***********Launch nopCommerce Application*************
+2020-12-08 14:36:07,979 [main] INFO nopCommerce - ***********Launch nopCommerce Application*************
+2020-12-08 14:36:12,995 - nopCommerce -INFO -***********Enter Login Details*************
+2020-12-08 14:36:12,995 [main] INFO nopCommerce - ***********Enter Login Details*************
+2020-12-08 17:09:03,960 - nopCommerce -INFO -***********Launch Chrome Browser*************
+2020-12-08 17:09:03,960 [main] INFO nopCommerce - ***********Launch Chrome Browser*************
+2020-12-08 17:09:06,246 - nopCommerce -INFO -***********Launch nopCommerce Application*************
+2020-12-08 17:09:06,246 [main] INFO nopCommerce - ***********Launch nopCommerce Application*************
+2020-12-08 17:10:01,085 - nopCommerce -INFO -***********Enter Login Details*************
+2020-12-08 17:10:01,085 [main] INFO nopCommerce - ***********Enter Login Details*************
+2020-12-08 17:10:01,760 - nopCommerce -INFO -***********Click Login button*************
+2020-12-08 17:10:01,760 [main] INFO nopCommerce - ***********Click Login button*************
+2020-12-08 17:10:17,067 - nopCommerce -INFO -***********Verify Page Title*************
+2020-12-08 17:10:17,067 [main] INFO nopCommerce - ***********Verify Page Title*************
+2020-12-08 17:10:20,104 - nopCommerce -INFO -***********Click Logout*************
+2020-12-08 17:10:20,104 [main] INFO nopCommerce - ***********Click Logout*************
+2020-12-08 17:10:24,362 - nopCommerce -INFO -***********Closing Browser*************
+2020-12-08 17:10:24,362 [main] INFO nopCommerce - ***********Closing Browser*************
+2020-12-08 17:10:28,902 - nopCommerce -INFO -***********Launch Chrome Browser*************
+2020-12-08 17:10:28,902 [main] INFO nopCommerce - ***********Launch Chrome Browser*************
+2020-12-08 17:10:31,136 - nopCommerce -INFO -***********Launch nopCommerce Application*************
+2020-12-08 17:10:31,136 [main] INFO nopCommerce - ***********Launch nopCommerce Application*************
+2020-12-08 17:10:36,148 - nopCommerce -INFO -***********Enter Login Details*************
+2020-12-08 17:10:36,148 [main] INFO nopCommerce - ***********Enter Login Details*************
+2020-12-08 17:10:36,947 - nopCommerce -INFO -***********Click Login button*************
+2020-12-08 17:10:36,947 [main] INFO nopCommerce - ***********Click Login button*************
+2020-12-08 17:32:53,798 - nopCommerce -INFO -***********Launch Chrome Browser*************
+2020-12-08 17:32:53,798 [main] INFO nopCommerce - ***********Launch Chrome Browser*************
+2020-12-08 17:32:58,942 - nopCommerce -INFO -***********Launch Chrome Browser*************
+2020-12-08 17:32:58,942 [main] INFO nopCommerce - ***********Launch Chrome Browser*************
+2020-12-08 17:38:22,032 - nopCommerce -INFO -***********Launch Chrome Browser*************
+2020-12-08 17:38:22,032 [main] INFO nopCommerce - ***********Launch Chrome Browser*************
+2020-12-08 17:38:24,364 - nopCommerce -INFO -***********Launch nopCommerce Application*************
+2020-12-08 17:38:24,364 [main] INFO nopCommerce - ***********Launch nopCommerce Application*************
+2020-12-08 17:38:29,526 - nopCommerce -INFO -***********Enter Login Details*************
+2020-12-08 17:38:29,526 [main] INFO nopCommerce - ***********Enter Login Details*************
+2020-12-08 17:38:30,407 - nopCommerce -INFO -***********Click Login button*************
+2020-12-08 17:38:30,407 [main] INFO nopCommerce - ***********Click Login button*************
+2020-12-08 17:38:39,390 - nopCommerce -INFO -***********Verify Page Title*************
+2020-12-08 17:38:39,390 [main] INFO nopCommerce - ***********Verify Page Title*************
+2020-12-08 17:38:42,434 - nopCommerce -INFO -***********Click Logout*************
+2020-12-08 17:38:42,434 [main] INFO nopCommerce - ***********Click Logout*************
+2020-12-08 17:38:47,006 - nopCommerce -INFO -***********Closing Browser*************
+2020-12-08 17:38:47,006 [main] INFO nopCommerce - ***********Closing Browser*************
+2020-12-08 17:38:51,824 - nopCommerce -INFO -***********Launch Chrome Browser*************
+2020-12-08 17:38:51,824 [main] INFO nopCommerce - ***********Launch Chrome Browser*************
+2020-12-08 17:38:54,030 - nopCommerce -INFO -***********Launch nopCommerce Application*************
+2020-12-08 17:38:54,030 [main] INFO nopCommerce - ***********Launch nopCommerce Application*************
+2020-12-08 17:38:58,731 - nopCommerce -INFO -***********Enter Login Details*************
+2020-12-08 17:38:58,731 [main] INFO nopCommerce - ***********Enter Login Details*************
+2020-12-08 17:38:59,523 - nopCommerce -INFO -***********Click Login button*************
+2020-12-08 17:38:59,523 [main] INFO nopCommerce - ***********Click Login button*************
+2020-12-08 17:39:37,406 - nopCommerce -INFO -***********Launch Chrome Browser*************
+2020-12-08 17:39:37,406 [main] INFO nopCommerce - ***********Launch Chrome Browser*************
+2020-12-08 17:39:42,165 - nopCommerce -INFO -***********Launch Chrome Browser*************
+2020-12-08 17:39:42,165 [main] INFO nopCommerce - ***********Launch Chrome Browser*************
+2020-12-08 17:49:23,826 - nopCommerce -INFO -***********Launch Chrome Browser*************
+2020-12-08 17:49:23,826 [main] INFO nopCommerce - ***********Launch Chrome Browser*************
+2020-12-08 17:49:26,047 - nopCommerce -INFO -***********Launch nopCommerce Application*************
+2020-12-08 17:49:26,047 [main] INFO nopCommerce - ***********Launch nopCommerce Application*************
+2020-12-08 17:49:31,652 - nopCommerce -INFO -***********Enter Login Details*************
+2020-12-08 17:49:31,652 [main] INFO nopCommerce - ***********Enter Login Details*************
+2020-12-08 17:49:32,397 - nopCommerce -INFO -***********Click Login button*************
+2020-12-08 17:49:32,397 [main] INFO nopCommerce - ***********Click Login button*************
+2020-12-08 17:49:39,870 - nopCommerce -INFO -***********Verify Page Title*************
+2020-12-08 17:49:39,870 [main] INFO nopCommerce - ***********Verify Page Title*************
+2020-12-08 17:49:42,921 - nopCommerce -INFO -***********Click Logout*************
+2020-12-08 17:49:42,921 [main] INFO nopCommerce - ***********Click Logout*************
+2020-12-08 17:49:47,125 - nopCommerce -INFO -***********Closing Browser*************
+2020-12-08 17:49:47,125 [main] INFO nopCommerce - ***********Closing Browser*************
+2020-12-08 17:49:51,450 - nopCommerce -INFO -***********Launch Chrome Browser*************
+2020-12-08 17:49:51,450 [main] INFO nopCommerce - ***********Launch Chrome Browser*************
+2020-12-08 17:49:53,663 - nopCommerce -INFO -***********Launch nopCommerce Application*************
+2020-12-08 17:49:53,663 [main] INFO nopCommerce - ***********Launch nopCommerce Application*************
+2020-12-08 17:49:58,392 - nopCommerce -INFO -***********Enter Login Details*************
+2020-12-08 17:49:58,392 [main] INFO nopCommerce - ***********Enter Login Details*************
+2020-12-08 17:49:59,103 - nopCommerce -INFO -***********Click Login button*************
+2020-12-08 17:49:59,103 [main] INFO nopCommerce - ***********Click Login button*************
+2020-12-08 17:54:04,703 - nopCommerce -INFO -***********Launch Chrome Browser*************
+2020-12-08 17:54:04,703 [main] INFO nopCommerce - ***********Launch Chrome Browser*************
+2020-12-08 17:54:06,940 - nopCommerce -INFO -***********Launch nopCommerce Application*************
+2020-12-08 17:54:06,940 [main] INFO nopCommerce - ***********Launch nopCommerce Application*************
+2020-12-08 17:54:12,282 - nopCommerce -INFO -***********Enter Login Details*************
+2020-12-08 17:54:12,282 [main] INFO nopCommerce - ***********Enter Login Details*************
+2020-12-08 17:54:13,089 - nopCommerce -INFO -***********Click Login button*************
+2020-12-08 17:54:13,089 [main] INFO nopCommerce - ***********Click Login button*************
+2020-12-08 17:54:21,806 - nopCommerce -INFO -***********Verify Page Title*************
+2020-12-08 17:54:21,806 [main] INFO nopCommerce - ***********Verify Page Title*************
+2020-12-08 17:54:24,872 - nopCommerce -INFO -***********Click Logout*************
+2020-12-08 17:54:24,872 [main] INFO nopCommerce - ***********Click Logout*************
+2020-12-08 17:54:29,188 - nopCommerce -INFO -***********Closing Browser*************
+2020-12-08 17:54:29,188 [main] INFO nopCommerce - ***********Closing Browser*************
+2020-12-08 17:54:33,652 - nopCommerce -INFO -***********Launch Chrome Browser*************
+2020-12-08 17:54:33,652 [main] INFO nopCommerce - ***********Launch Chrome Browser*************
+2020-12-08 17:54:35,843 - nopCommerce -INFO -***********Launch nopCommerce Application*************
+2020-12-08 17:54:35,843 [main] INFO nopCommerce - ***********Launch nopCommerce Application*************
+2020-12-08 17:54:40,529 - nopCommerce -INFO -***********Enter Login Details*************
+2020-12-08 17:54:40,529 [main] INFO nopCommerce - ***********Enter Login Details*************
+2020-12-08 17:54:41,303 - nopCommerce -INFO -***********Click Login button*************
+2020-12-08 17:54:41,303 [main] INFO nopCommerce - ***********Click Login button*************
+2020-12-08 21:40:57,130 - nopCommerce -INFO -***********Launch Chrome Browser*************
+2020-12-08 21:40:57,130 [main] INFO nopCommerce - ***********Launch Chrome Browser*************
+2020-12-08 21:40:59,792 - nopCommerce -INFO -***********Launch nopCommerce Application*************
+2020-12-08 21:40:59,792 [main] INFO nopCommerce - ***********Launch nopCommerce Application*************
+2020-12-08 21:41:06,668 - nopCommerce -INFO -***********Enter Login Details*************
+2020-12-08 21:41:06,668 [main] INFO nopCommerce - ***********Enter Login Details*************
+2020-12-08 21:41:07,468 - nopCommerce -INFO -***********Click Login button*************
+2020-12-08 21:41:07,468 [main] INFO nopCommerce - ***********Click Login button*************
+2020-12-08 21:41:17,736 - nopCommerce -INFO -***********Verify Page Title*************
+2020-12-08 21:41:17,736 [main] INFO nopCommerce - ***********Verify Page Title*************
+2020-12-08 21:41:20,798 - nopCommerce -INFO -***********Click Logout*************
+2020-12-08 21:41:20,798 [main] INFO nopCommerce - ***********Click Logout*************
+2020-12-08 21:41:25,468 - nopCommerce -INFO -***********Closing Browser*************
+2020-12-08 21:41:25,468 [main] INFO nopCommerce - ***********Closing Browser*************
+2020-12-08 21:41:30,896 - nopCommerce -INFO -***********Launch Chrome Browser*************
+2020-12-08 21:41:30,896 [main] INFO nopCommerce - ***********Launch Chrome Browser*************
+2020-12-08 21:41:33,119 - nopCommerce -INFO -***********Launch nopCommerce Application*************
+2020-12-08 21:41:33,119 [main] INFO nopCommerce - ***********Launch nopCommerce Application*************
+2020-12-08 21:41:39,375 - nopCommerce -INFO -***********Enter Login Details*************
+2020-12-08 21:41:39,375 [main] INFO nopCommerce - ***********Enter Login Details*************
+2020-12-08 21:41:40,184 - nopCommerce -INFO -***********Click Login button*************
+2020-12-08 21:41:40,184 [main] INFO nopCommerce - ***********Click Login button*************
+2020-12-08 21:42:56,181 - nopCommerce -INFO -***********Launch Chrome Browser*************
+2020-12-08 21:42:56,181 [main] INFO nopCommerce - ***********Launch Chrome Browser*************
+2020-12-08 21:42:58,427 - nopCommerce -INFO -***********Launch nopCommerce Application*************
+2020-12-08 21:42:58,427 [main] INFO nopCommerce - ***********Launch nopCommerce Application*************
+2020-12-08 21:43:04,083 - nopCommerce -INFO -***********Enter Login Details*************
+2020-12-08 21:43:04,083 [main] INFO nopCommerce - ***********Enter Login Details*************
+2020-12-08 21:43:04,958 - nopCommerce -INFO -***********Click Login button*************
+2020-12-08 21:43:04,958 [main] INFO nopCommerce - ***********Click Login button*************
+2020-12-08 21:43:13,345 - nopCommerce -INFO -***********Verify Page Title*************
+2020-12-08 21:43:13,345 [main] INFO nopCommerce - ***********Verify Page Title*************
+2020-12-08 21:43:16,402 - nopCommerce -INFO -***********Click Logout*************
+2020-12-08 21:43:16,402 [main] INFO nopCommerce - ***********Click Logout*************
+2020-12-08 21:43:20,699 - nopCommerce -INFO -***********Closing Browser*************
+2020-12-08 21:43:20,699 [main] INFO nopCommerce - ***********Closing Browser*************
+2020-12-08 21:43:25,821 - nopCommerce -INFO -***********Launch Chrome Browser*************
+2020-12-08 21:43:25,821 [main] INFO nopCommerce - ***********Launch Chrome Browser*************
+2020-12-08 21:43:28,035 - nopCommerce -INFO -***********Launch nopCommerce Application*************
+2020-12-08 21:43:28,035 [main] INFO nopCommerce - ***********Launch nopCommerce Application*************
+2020-12-08 21:43:33,190 - nopCommerce -INFO -***********Enter Login Details*************
+2020-12-08 21:43:33,190 [main] INFO nopCommerce - ***********Enter Login Details*************
+2020-12-08 21:43:34,005 - nopCommerce -INFO -***********Click Login button*************
+2020-12-08 21:43:34,005 [main] INFO nopCommerce - ***********Click Login button*************
+2021-09-06 13:05:05,823 - nopCommerce -INFO -***********Launch Chrome Browser*************
+2021-09-06 13:05:05,823 [main] INFO nopCommerce - ***********Launch Chrome Browser*************
+2021-09-06 13:05:07,042 - nopCommerce -INFO -***********Launch nopCommerce Application*************
+2021-09-06 13:05:07,042 [main] INFO nopCommerce - ***********Launch nopCommerce Application*************
+2021-09-06 13:05:13,784 - nopCommerce -INFO -***********Enter Login Details*************
+2021-09-06 13:05:13,784 [main] INFO nopCommerce - ***********Enter Login Details*************
+2021-09-06 13:05:16,965 - nopCommerce -INFO -***********Click Login button*************
+2021-09-06 13:05:16,965 [main] INFO nopCommerce - ***********Click Login button*************
+2021-09-06 13:10:19,777 - nopCommerce -INFO -***********Launch Chrome Browser*************
+2021-09-06 13:10:19,777 [main] INFO nopCommerce - ***********Launch Chrome Browser*************
+2021-09-06 13:10:21,117 - nopCommerce -INFO -***********Launch nopCommerce Application*************
+2021-09-06 13:10:21,117 [main] INFO nopCommerce - ***********Launch nopCommerce Application*************
+2021-09-06 13:10:26,728 - nopCommerce -INFO -***********Enter Login Details*************
+2021-09-06 13:10:26,728 [main] INFO nopCommerce - ***********Enter Login Details*************
+2021-09-06 13:14:27,045 - nopCommerce -INFO -***********Launch Chrome Browser*************
+2021-09-06 13:14:27,045 [main] INFO nopCommerce - ***********Launch Chrome Browser*************
+2021-09-06 13:14:28,931 - nopCommerce -INFO -***********Launch nopCommerce Application*************
+2021-09-06 13:14:28,931 [main] INFO nopCommerce - ***********Launch nopCommerce Application*************
+2021-09-06 13:14:35,355 - nopCommerce -INFO -***********Enter Login Details*************
+2021-09-06 13:14:35,355 [main] INFO nopCommerce - ***********Enter Login Details*************
+2021-09-06 13:14:38,108 - nopCommerce -INFO -***********Click Login button*************
+2021-09-06 13:14:38,108 [main] INFO nopCommerce - ***********Click Login button*************
+2021-09-06 13:14:56,566 - nopCommerce -INFO -***********Verify Page Title*************
+2021-09-06 13:14:56,566 [main] INFO nopCommerce - ***********Verify Page Title*************
+2021-09-06 13:14:59,638 - nopCommerce -INFO -***********Click Logout*************
+2021-09-06 13:14:59,638 [main] INFO nopCommerce - ***********Click Logout*************
+2021-09-06 13:15:04,853 - nopCommerce -INFO -***********Closing Browser*************
+2021-09-06 13:15:04,853 [main] INFO nopCommerce - ***********Closing Browser*************
+2021-09-06 15:29:55,970 - nopCommerce -INFO -***********Launch Chrome Browser*************
+2021-09-06 15:29:55,970 [main] INFO nopCommerce - ***********Launch Chrome Browser*************
+2021-09-06 15:29:56,703 - nopCommerce -INFO -***********Launch nopCommerce Application*************
+2021-09-06 15:29:56,703 [main] INFO nopCommerce - ***********Launch nopCommerce Application*************
+2021-09-06 15:29:59,874 - nopCommerce -INFO -***********Enter Login Details*************
+2021-09-06 15:29:59,874 [main] INFO nopCommerce - ***********Enter Login Details*************
+2021-09-06 15:30:00,915 - nopCommerce -INFO -***********Click Login button*************
+2021-09-06 15:30:00,915 [main] INFO nopCommerce - ***********Click Login button*************
+2021-09-06 15:30:11,797 - nopCommerce -INFO -***********Verify Page Title*************
+2021-09-06 15:30:11,797 [main] INFO nopCommerce - ***********Verify Page Title*************
+2021-09-06 15:30:14,865 - nopCommerce -INFO -***********Click Logout*************
+2021-09-06 15:30:14,865 [main] INFO nopCommerce - ***********Click Logout*************
+2021-09-06 15:30:19,201 - nopCommerce -INFO -***********Closing Browser*************
+2021-09-06 15:30:19,201 [main] INFO nopCommerce - ***********Closing Browser*************
+2021-09-06 15:52:22,969 - nopCommerce -INFO -***********Launch Chrome Browser*************
+2021-09-06 15:52:22,969 [main] INFO nopCommerce - ***********Launch Chrome Browser*************
+2021-09-06 15:52:23,421 - nopCommerce -INFO -***********Launch nopCommerce Application*************
+2021-09-06 15:52:23,421 [main] INFO nopCommerce - ***********Launch nopCommerce Application*************
+2021-09-06 15:52:26,559 - nopCommerce -INFO -***********Enter Login Details*************
+2021-09-06 15:52:26,559 [main] INFO nopCommerce - ***********Enter Login Details*************
+2021-09-06 15:52:27,403 - nopCommerce -INFO -***********Click Login button*************
+2021-09-06 15:52:27,403 [main] INFO nopCommerce - ***********Click Login button*************
+2021-09-06 15:52:36,827 - nopCommerce -INFO -***********Verify Page Title*************
+2021-09-06 15:52:36,827 [main] INFO nopCommerce - ***********Verify Page Title*************
+2021-09-06 15:52:39,885 - nopCommerce -INFO -***********Click Logout*************
+2021-09-06 15:52:39,885 [main] INFO nopCommerce - ***********Click Logout*************
+2021-09-06 15:52:44,388 - nopCommerce -INFO -***********Closing Browser*************
+2021-09-06 15:52:44,388 [main] INFO nopCommerce - ***********Closing Browser*************
+2021-09-06 15:57:13,621 - nopCommerce -INFO -***********Launch Chrome Browser*************
+2021-09-06 15:57:13,621 [main] INFO nopCommerce - ***********Launch Chrome Browser*************
+2021-09-06 15:57:14,271 - nopCommerce -INFO -***********Launch nopCommerce Application*************
+2021-09-06 15:57:14,271 [main] INFO nopCommerce - ***********Launch nopCommerce Application*************
+2021-09-06 15:57:17,559 - nopCommerce -INFO -***********Enter Login Details*************
+2021-09-06 15:57:17,559 [main] INFO nopCommerce - ***********Enter Login Details*************
+2021-09-06 15:57:18,550 - nopCommerce -INFO -***********Click Login button*************
+2021-09-06 15:57:18,550 [main] INFO nopCommerce - ***********Click Login button*************
+2021-09-06 15:57:27,753 - nopCommerce -INFO -***********Verify Page Title*************
+2021-09-06 15:57:27,753 [main] INFO nopCommerce - ***********Verify Page Title*************
+2021-09-06 15:57:30,783 - nopCommerce -INFO -***********Click Logout*************
+2021-09-06 15:57:30,783 [main] INFO nopCommerce - ***********Click Logout*************
+2021-09-06 15:57:35,634 - nopCommerce -INFO -***********Closing Browser*************
+2021-09-06 15:57:35,634 [main] INFO nopCommerce - ***********Closing Browser*************
+2021-09-06 15:57:39,040 - nopCommerce -INFO -***********Launch Chrome Browser*************
+2021-09-06 15:57:39,040 [main] INFO nopCommerce - ***********Launch Chrome Browser*************
+2021-09-06 15:57:39,254 - nopCommerce -INFO -***********Launch nopCommerce Application*************
+2021-09-06 15:57:39,254 [main] INFO nopCommerce - ***********Launch nopCommerce Application*************
+2021-09-06 15:57:42,498 - nopCommerce -INFO -***********Enter Login Details*************
+2021-09-06 15:57:42,498 [main] INFO nopCommerce - ***********Enter Login Details*************
+2021-09-06 15:57:43,420 - nopCommerce -INFO -***********Click Login button*************
+2021-09-06 15:57:43,420 [main] INFO nopCommerce - ***********Click Login button*************
+2021-09-06 16:22:25,402 - nopCommerce -INFO -***********Launch Chrome Browser*************
+2021-09-06 16:22:25,402 [main] INFO nopCommerce - ***********Launch Chrome Browser*************
+2021-09-06 16:22:25,930 - nopCommerce -INFO -***********Launch nopCommerce Application*************
+2021-09-06 16:22:25,930 [main] INFO nopCommerce - ***********Launch nopCommerce Application*************
+2021-09-06 16:22:31,783 - nopCommerce -INFO -***********Enter Login Details*************
+2021-09-06 16:22:31,783 [main] INFO nopCommerce - ***********Enter Login Details*************
+2021-09-06 16:22:32,866 - nopCommerce -INFO -***********Click Login button*************
+2021-09-06 16:22:32,866 [main] INFO nopCommerce - ***********Click Login button*************
+2021-09-06 16:22:43,526 - nopCommerce -INFO -***********Verify Page Title*************
+2021-09-06 16:22:43,526 [main] INFO nopCommerce - ***********Verify Page Title*************
+2021-09-06 16:22:46,588 - nopCommerce -INFO -***********Click Logout*************
+2021-09-06 16:22:46,588 [main] INFO nopCommerce - ***********Click Logout*************
+2021-09-06 16:23:01,379 - nopCommerce -INFO -***********Launch Chrome Browser*************
+2021-09-06 16:23:01,379 [main] INFO nopCommerce - ***********Launch Chrome Browser*************
+2021-09-06 16:23:01,701 - nopCommerce -INFO -***********Launch nopCommerce Application*************
+2021-09-06 16:23:01,701 [main] INFO nopCommerce - ***********Launch nopCommerce Application*************
+2021-09-06 16:23:07,315 - nopCommerce -INFO -***********Enter Login Details*************
+2021-09-06 16:23:07,315 [main] INFO nopCommerce - ***********Enter Login Details*************
+2021-09-06 16:23:08,130 - nopCommerce -INFO -***********Click Login button*************
+2021-09-06 16:23:08,130 [main] INFO nopCommerce - ***********Click Login button*************
+2021-09-06 16:23:11,842 - nopCommerce -INFO -***********Verify error message*************
+2021-09-06 16:23:11,842 [main] INFO nopCommerce - ***********Verify error message*************
+2021-09-06 16:23:48,406 - nopCommerce -INFO -***********Launch Chrome Browser*************
+2021-09-06 16:23:48,406 [main] INFO nopCommerce - ***********Launch Chrome Browser*************
+2021-09-06 16:23:48,655 - nopCommerce -INFO -***********Launch nopCommerce Application*************
+2021-09-06 16:23:48,655 [main] INFO nopCommerce - ***********Launch nopCommerce Application*************
+2021-09-06 16:23:54,718 - nopCommerce -INFO -***********Enter Login Details*************
+2021-09-06 16:23:54,718 [main] INFO nopCommerce - ***********Enter Login Details*************
+2021-09-06 16:23:55,662 - nopCommerce -INFO -***********Click Login button*************
+2021-09-06 16:23:55,662 [main] INFO nopCommerce - ***********Click Login button*************
+2021-09-06 16:23:59,775 - nopCommerce -INFO -***********Verify error message*************
+2021-09-06 16:23:59,775 [main] INFO nopCommerce - ***********Verify error message*************
+2021-09-06 16:24:15,685 - nopCommerce -INFO -***********Launch Chrome Browser*************
+2021-09-06 16:24:15,685 [main] INFO nopCommerce - ***********Launch Chrome Browser*************
+2021-09-06 16:24:15,989 - nopCommerce -INFO -***********Launch nopCommerce Application*************
+2021-09-06 16:24:15,989 [main] INFO nopCommerce - ***********Launch nopCommerce Application*************
+2021-09-06 16:24:21,560 - nopCommerce -INFO -***********Enter Login Details*************
+2021-09-06 16:24:21,560 [main] INFO nopCommerce - ***********Enter Login Details*************
+2021-09-06 16:24:22,493 - nopCommerce -INFO -***********Click Login button*************
+2021-09-06 16:24:22,493 [main] INFO nopCommerce - ***********Click Login button*************
+2021-09-06 16:24:26,226 - nopCommerce -INFO -***********Verify error message*************
+2021-09-06 16:24:26,226 [main] INFO nopCommerce - ***********Verify error message*************
+2021-09-06 16:25:14,721 - nopCommerce -INFO -***********Launch Chrome Browser*************
+2021-09-06 16:25:14,721 [main] INFO nopCommerce - ***********Launch Chrome Browser*************
+2021-09-06 16:25:15,194 - nopCommerce -INFO -***********Launch nopCommerce Application*************
+2021-09-06 16:25:15,194 [main] INFO nopCommerce - ***********Launch nopCommerce Application*************
+2021-09-06 16:25:18,441 - nopCommerce -INFO -***********Enter Login Details*************
+2021-09-06 16:25:18,441 [main] INFO nopCommerce - ***********Enter Login Details*************
+2021-09-06 16:25:19,301 - nopCommerce -INFO -***********Click Login button*************
+2021-09-06 16:25:19,301 [main] INFO nopCommerce - ***********Click Login button*************
+2021-09-06 16:25:28,700 - nopCommerce -INFO -***********Verify Page Title*************
+2021-09-06 16:25:28,700 [main] INFO nopCommerce - ***********Verify Page Title*************
+2021-09-06 16:25:31,726 - nopCommerce -INFO -***********Click Logout*************
+2021-09-06 16:25:31,726 [main] INFO nopCommerce - ***********Click Logout*************
+2021-09-06 16:25:39,648 - nopCommerce -INFO -***********Launch Chrome Browser*************
+2021-09-06 16:25:39,648 [main] INFO nopCommerce - ***********Launch Chrome Browser*************
+2021-09-06 16:25:39,890 - nopCommerce -INFO -***********Launch nopCommerce Application*************
+2021-09-06 16:25:39,890 [main] INFO nopCommerce - ***********Launch nopCommerce Application*************
+2021-09-06 16:25:42,581 - nopCommerce -INFO -***********Enter Login Details*************
+2021-09-06 16:25:42,581 [main] INFO nopCommerce - ***********Enter Login Details*************
+2021-09-06 16:25:43,398 - nopCommerce -INFO -***********Click Login button*************
+2021-09-06 16:25:43,398 [main] INFO nopCommerce - ***********Click Login button*************
+2021-09-06 16:25:47,156 - nopCommerce -INFO -***********Verify error message*************
+2021-09-06 16:25:47,156 [main] INFO nopCommerce - ***********Verify error message*************
+2021-09-06 16:25:54,202 - nopCommerce -INFO -***********Launch Chrome Browser*************
+2021-09-06 16:25:54,202 [main] INFO nopCommerce - ***********Launch Chrome Browser*************
+2021-09-06 16:25:54,438 - nopCommerce -INFO -***********Launch nopCommerce Application*************
+2021-09-06 16:25:54,438 [main] INFO nopCommerce - ***********Launch nopCommerce Application*************
+2021-09-06 16:25:57,081 - nopCommerce -INFO -***********Enter Login Details*************
+2021-09-06 16:25:57,081 [main] INFO nopCommerce - ***********Enter Login Details*************
+2021-09-06 16:25:58,377 - nopCommerce -INFO -***********Click Login button*************
+2021-09-06 16:25:58,377 [main] INFO nopCommerce - ***********Click Login button*************
+2021-09-06 16:26:02,084 - nopCommerce -INFO -***********Verify error message*************
+2021-09-06 16:26:02,084 [main] INFO nopCommerce - ***********Verify error message*************
+2021-09-06 16:26:08,519 - nopCommerce -INFO -***********Launch Chrome Browser*************
+2021-09-06 16:26:08,519 [main] INFO nopCommerce - ***********Launch Chrome Browser*************
+2021-09-06 16:26:08,779 - nopCommerce -INFO -***********Launch nopCommerce Application*************
+2021-09-06 16:26:08,779 [main] INFO nopCommerce - ***********Launch nopCommerce Application*************
+2021-09-06 16:26:12,276 - nopCommerce -INFO -***********Enter Login Details*************
+2021-09-06 16:26:12,276 [main] INFO nopCommerce - ***********Enter Login Details*************
+2021-09-06 16:26:13,107 - nopCommerce -INFO -***********Click Login button*************
+2021-09-06 16:26:13,107 [main] INFO nopCommerce - ***********Click Login button*************
+2021-09-06 16:26:16,808 - nopCommerce -INFO -***********Verify error message*************
+2021-09-06 16:26:16,808 [main] INFO nopCommerce - ***********Verify error message*************
+2021-09-06 16:26:23,798 - nopCommerce -INFO -***********Launch Chrome Browser*************
+2021-09-06 16:26:23,798 [main] INFO nopCommerce - ***********Launch Chrome Browser*************
+2021-09-06 16:26:24,159 - nopCommerce -INFO -***********Launch nopCommerce Application*************
+2021-09-06 16:26:24,159 [main] INFO nopCommerce - ***********Launch nopCommerce Application*************
+2021-09-06 16:26:28,419 - nopCommerce -INFO -***********Enter Login Details*************
+2021-09-06 16:26:28,419 [main] INFO nopCommerce - ***********Enter Login Details*************
+2021-09-06 16:26:29,270 - nopCommerce -INFO -***********Click Login button*************
+2021-09-06 16:26:29,270 [main] INFO nopCommerce - ***********Click Login button*************
+2021-09-06 16:26:32,916 - nopCommerce -INFO -***********Verify error message*************
+2021-09-06 16:26:32,916 [main] INFO nopCommerce - ***********Verify error message*************
