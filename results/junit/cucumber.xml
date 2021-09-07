@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0.167753">
+<testcase classname="Login Validation" name="Successful Login with Valid credentials" time="0.126001">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given User launch Chrome Browser............................................undefined
+When User open URL "https://admin-demo.nopcommerce.com/"....................undefined
+And User enter user id as "admin@yourstore.com" and password as "admin".....undefined
+When Click Login button.....................................................undefined
+And Page title should be "Dashboard / nopCommerce administration"...........undefined
+When Click logout link......................................................undefined
+]]></failure>
+</testcase>
+<testcase classname="Login Validation" name="Login failed with Invalid credentials" time="0.041752">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given User launch Chrome Browser............................................undefined
+When User open URL "https://admin-demo.nopcommerce.com/"....................undefined
+And User enter user id as "admin@yourstore.com" and password as "adm".......undefined
+When Click Login button.....................................................undefined
+Then Verify error message should be "Login was unsuccessful. Please correct the errors and try again.The credentials provided are incorrect".undefined
+]]></failure>
+</testcase>
+</testsuite>
