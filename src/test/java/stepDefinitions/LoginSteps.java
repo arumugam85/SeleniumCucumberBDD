@@ -1,6 +1,7 @@
 package stepDefinitions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
@@ -28,7 +29,9 @@ public class LoginSteps extends BaseClass {
 	ConfigFileReader configFileReader;
 	//LoginPage login = PageFactory.initElements(driver, LoginPage.class);
 	
-	@Before
+
+    @Before
+    @Test
 	public void setup() throws IOException {
 		// Reading Properties file
 		
@@ -55,6 +58,7 @@ public class LoginSteps extends BaseClass {
 		}
 	}
 
+	
 	@Given("^User launch Chrome Browser$")
 	public void user_launch_Chrome_Browser() throws Throwable {
 
@@ -62,6 +66,7 @@ public class LoginSteps extends BaseClass {
 		driver.manage().window().maximize();
 	}
 
+	
 	@When("^User open URL \"([^\"]*)\"$")
 	public void user_open_URL(String url) throws Throwable {
 		logger.info("***********Launch nopCommerce Application*************");

@@ -78,7 +78,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 5232652300,
+  "duration": 5331056200,
   "status": "passed"
 });
 formatter.scenario({
@@ -136,7 +136,7 @@ formatter.match({
   "location": "LoginSteps.user_launch_Chrome_Browser()"
 });
 formatter.result({
-  "duration": 427875200,
+  "duration": 572147800,
   "status": "passed"
 });
 formatter.match({
@@ -149,7 +149,7 @@ formatter.match({
   "location": "LoginSteps.user_open_URL(String)"
 });
 formatter.result({
-  "duration": 3250311800,
+  "duration": 2833078000,
   "status": "passed"
 });
 formatter.match({
@@ -166,14 +166,14 @@ formatter.match({
   "location": "LoginSteps.user_enter_user_id_as_and_password_as(String,String)"
 });
 formatter.result({
-  "duration": 857477200,
+  "duration": 695760000,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.click_Login_button()"
 });
 formatter.result({
-  "duration": 9398355200,
+  "duration": 9484321500,
   "status": "passed"
 });
 formatter.match({
@@ -186,18 +186,18 @@ formatter.match({
   "location": "LoginSteps.page_title_should_be(String)"
 });
 formatter.result({
-  "duration": 3031922800,
+  "duration": 3039261500,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.click_logout_link()"
 });
 formatter.result({
-  "duration": 4652246400,
+  "duration": 4347096600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 999508300,
+  "duration": 1446184000,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -267,7 +267,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 2233750800,
+  "duration": 1981083600,
   "status": "passed"
 });
 formatter.scenario({
@@ -317,7 +317,7 @@ formatter.match({
   "location": "LoginSteps.user_launch_Chrome_Browser()"
 });
 formatter.result({
-  "duration": 234936900,
+  "duration": 221309300,
   "status": "passed"
 });
 formatter.match({
@@ -330,7 +330,7 @@ formatter.match({
   "location": "LoginSteps.user_open_URL(String)"
 });
 formatter.result({
-  "duration": 2686991500,
+  "duration": 2895938500,
   "status": "passed"
 });
 formatter.match({
@@ -347,14 +347,14 @@ formatter.match({
   "location": "LoginSteps.user_enter_user_id_as_and_password_as(String,String)"
 });
 formatter.result({
-  "duration": 814844100,
+  "duration": 660465000,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.click_Login_button()"
 });
 formatter.result({
-  "duration": 3757964600,
+  "duration": 4028181600,
   "status": "passed"
 });
 formatter.match({
@@ -367,339 +367,12 @@ formatter.match({
   "location": "LoginSteps.verify_error_message_should_be(String)"
 });
 formatter.result({
-  "duration": 3118393300,
-  "error_message": "java.lang.AssertionError: expected [Login was unsuccessful. Please correct the errors and try again.The credentials provided are incorrect] but found [Login was unsuccessful. Please correct the errors and try again.\nThe credentials provided are incorrect]\r\n\tat org.testng.Assert.fail(Assert.java:93)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:512)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:134)\r\n\tat org.testng.Assert.assertEquals(Assert.java:115)\r\n\tat org.testng.Assert.assertEquals(Assert.java:189)\r\n\tat org.testng.Assert.assertEquals(Assert.java:199)\r\n\tat stepDefinitions.LoginSteps.verify_error_message_should_be(LoginSteps.java:125)\r\n\tat ✽.Then Verify error message should be \"Login was unsuccessful. Please correct the errors and try again.The credentials provided are incorrect\"(AdminLogin.feature:22)\r\n",
+  "duration": 3133247400,
+  "error_message": "java.lang.AssertionError: expected [Login was unsuccessful. Please correct the errors and try again.The credentials provided are incorrect] but found [Login was unsuccessful. Please correct the errors and try again.\nThe credentials provided are incorrect]\r\n\tat org.testng.Assert.fail(Assert.java:93)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:512)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:134)\r\n\tat org.testng.Assert.assertEquals(Assert.java:115)\r\n\tat org.testng.Assert.assertEquals(Assert.java:189)\r\n\tat org.testng.Assert.assertEquals(Assert.java:199)\r\n\tat stepDefinitions.LoginSteps.verify_error_message_should_be(LoginSteps.java:130)\r\n\tat ✽.Then Verify error message should be \"Login was unsuccessful. Please correct the errors and try again.The credentials provided are incorrect\"(AdminLogin.feature:22)\r\n",
   "status": "failed"
 });
 formatter.after({
-  "duration": 1593178200,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 2316506300,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 26,
-  "name": "Login failed with Invalid credentials",
-  "description": "",
-  "id": "login-validation;login-failed-with-invalid-credentials;;2",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 16,
-      "name": "@demo"
-    }
-  ]
-});
-formatter.step({
-  "line": 18,
-  "name": "User launch Chrome Browser",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 19,
-  "name": "User open URL \"https://admin-demo.nopcommerce.com/\"",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 20,
-  "name": "User enter user id as \"admin@yourstore.com\" and password as \"adm\"",
-  "matchedColumns": [
-    0,
-    1
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 21,
-  "name": "Click Login button",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 22,
-  "name": "Verify error message should be \"Login was unsuccessful. Please correct the errors and try again.The credentials provided are incorrect\"",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "LoginSteps.user_launch_Chrome_Browser()"
-});
-formatter.result({
-  "duration": 222387200,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "https://admin-demo.nopcommerce.com/",
-      "offset": 15
-    }
-  ],
-  "location": "LoginSteps.user_open_URL(String)"
-});
-formatter.result({
-  "duration": 2641947500,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "admin@yourstore.com",
-      "offset": 23
-    },
-    {
-      "val": "adm",
-      "offset": 61
-    }
-  ],
-  "location": "LoginSteps.user_enter_user_id_as_and_password_as(String,String)"
-});
-formatter.result({
-  "duration": 1295056900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.click_Login_button()"
-});
-formatter.result({
-  "duration": 3706626700,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Login was unsuccessful. Please correct the errors and try again.The credentials provided are incorrect",
-      "offset": 32
-    }
-  ],
-  "location": "LoginSteps.verify_error_message_should_be(String)"
-});
-formatter.result({
-  "duration": 3117640200,
-  "error_message": "java.lang.AssertionError: expected [Login was unsuccessful. Please correct the errors and try again.The credentials provided are incorrect] but found [Login was unsuccessful. Please correct the errors and try again.\nThe credentials provided are incorrect]\r\n\tat org.testng.Assert.fail(Assert.java:93)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:512)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:134)\r\n\tat org.testng.Assert.assertEquals(Assert.java:115)\r\n\tat org.testng.Assert.assertEquals(Assert.java:189)\r\n\tat org.testng.Assert.assertEquals(Assert.java:199)\r\n\tat stepDefinitions.LoginSteps.verify_error_message_should_be(LoginSteps.java:125)\r\n\tat ✽.Then Verify error message should be \"Login was unsuccessful. Please correct the errors and try again.The credentials provided are incorrect\"(AdminLogin.feature:22)\r\n",
-  "status": "failed"
-});
-formatter.after({
-  "duration": 1020444900,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 2252777900,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 26,
-  "name": "Login failed with Invalid credentials",
-  "description": "",
-  "id": "login-validation;login-failed-with-invalid-credentials;;2",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 16,
-      "name": "@demo"
-    }
-  ]
-});
-formatter.step({
-  "line": 18,
-  "name": "User launch Chrome Browser",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 19,
-  "name": "User open URL \"https://admin-demo.nopcommerce.com/\"",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 20,
-  "name": "User enter user id as \"admin@yourstore.com\" and password as \"adm\"",
-  "matchedColumns": [
-    0,
-    1
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 21,
-  "name": "Click Login button",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 22,
-  "name": "Verify error message should be \"Login was unsuccessful. Please correct the errors and try again.The credentials provided are incorrect\"",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "LoginSteps.user_launch_Chrome_Browser()"
-});
-formatter.result({
-  "duration": 243640600,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "https://admin-demo.nopcommerce.com/",
-      "offset": 15
-    }
-  ],
-  "location": "LoginSteps.user_open_URL(String)"
-});
-formatter.result({
-  "duration": 3494136200,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "admin@yourstore.com",
-      "offset": 23
-    },
-    {
-      "val": "adm",
-      "offset": 61
-    }
-  ],
-  "location": "LoginSteps.user_enter_user_id_as_and_password_as(String,String)"
-});
-formatter.result({
-  "duration": 822906000,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.click_Login_button()"
-});
-formatter.result({
-  "duration": 3701016900,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Login was unsuccessful. Please correct the errors and try again.The credentials provided are incorrect",
-      "offset": 32
-    }
-  ],
-  "location": "LoginSteps.verify_error_message_should_be(String)"
-});
-formatter.result({
-  "duration": 3117149500,
-  "error_message": "java.lang.AssertionError: expected [Login was unsuccessful. Please correct the errors and try again.The credentials provided are incorrect] but found [Login was unsuccessful. Please correct the errors and try again.\nThe credentials provided are incorrect]\r\n\tat org.testng.Assert.fail(Assert.java:93)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:512)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:134)\r\n\tat org.testng.Assert.assertEquals(Assert.java:115)\r\n\tat org.testng.Assert.assertEquals(Assert.java:189)\r\n\tat org.testng.Assert.assertEquals(Assert.java:199)\r\n\tat stepDefinitions.LoginSteps.verify_error_message_should_be(LoginSteps.java:125)\r\n\tat ✽.Then Verify error message should be \"Login was unsuccessful. Please correct the errors and try again.The credentials provided are incorrect\"(AdminLogin.feature:22)\r\n",
-  "status": "failed"
-});
-formatter.after({
-  "duration": 1441536300,
-  "status": "passed"
-});
-formatter.before({
-  "duration": 2423952200,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 26,
-  "name": "Login failed with Invalid credentials",
-  "description": "",
-  "id": "login-validation;login-failed-with-invalid-credentials;;2",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 16,
-      "name": "@demo"
-    }
-  ]
-});
-formatter.step({
-  "line": 18,
-  "name": "User launch Chrome Browser",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 19,
-  "name": "User open URL \"https://admin-demo.nopcommerce.com/\"",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 20,
-  "name": "User enter user id as \"admin@yourstore.com\" and password as \"adm\"",
-  "matchedColumns": [
-    0,
-    1
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 21,
-  "name": "Click Login button",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 22,
-  "name": "Verify error message should be \"Login was unsuccessful. Please correct the errors and try again.The credentials provided are incorrect\"",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "LoginSteps.user_launch_Chrome_Browser()"
-});
-formatter.result({
-  "duration": 360756200,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "https://admin-demo.nopcommerce.com/",
-      "offset": 15
-    }
-  ],
-  "location": "LoginSteps.user_open_URL(String)"
-});
-formatter.result({
-  "duration": 4249011100,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "admin@yourstore.com",
-      "offset": 23
-    },
-    {
-      "val": "adm",
-      "offset": 61
-    }
-  ],
-  "location": "LoginSteps.user_enter_user_id_as_and_password_as(String,String)"
-});
-formatter.result({
-  "duration": 850826900,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginSteps.click_Login_button()"
-});
-formatter.result({
-  "duration": 3645271400,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Login was unsuccessful. Please correct the errors and try again.The credentials provided are incorrect",
-      "offset": 32
-    }
-  ],
-  "location": "LoginSteps.verify_error_message_should_be(String)"
-});
-formatter.result({
-  "duration": 3113627200,
-  "error_message": "java.lang.AssertionError: expected [Login was unsuccessful. Please correct the errors and try again.The credentials provided are incorrect] but found [Login was unsuccessful. Please correct the errors and try again.\nThe credentials provided are incorrect]\r\n\tat org.testng.Assert.fail(Assert.java:93)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:512)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:134)\r\n\tat org.testng.Assert.assertEquals(Assert.java:115)\r\n\tat org.testng.Assert.assertEquals(Assert.java:189)\r\n\tat org.testng.Assert.assertEquals(Assert.java:199)\r\n\tat stepDefinitions.LoginSteps.verify_error_message_should_be(LoginSteps.java:125)\r\n\tat ✽.Then Verify error message should be \"Login was unsuccessful. Please correct the errors and try again.The credentials provided are incorrect\"(AdminLogin.feature:22)\r\n",
-  "status": "failed"
-});
-formatter.after({
-  "duration": 998559100,
+  "duration": 1232087600,
   "status": "passed"
 });
 });
