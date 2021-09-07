@@ -398,3 +398,25 @@
 2021-09-06 21:54:31,035 [main] INFO nopCommerce - ***********Click Login button*************
 2021-09-06 21:54:35,064 - nopCommerce -INFO -***********Verify error message*************
 2021-09-06 21:54:35,064 [main] INFO nopCommerce - ***********Verify error message*************
+2021-09-06 22:03:40,835 - nopCommerce -INFO -***********Launch Chrome Browser*************
+2021-09-06 22:03:40,835 [main] INFO nopCommerce - ***********Launch Chrome Browser*************
+2021-09-06 22:03:41,363 - nopCommerce -INFO -***********Launch nopCommerce Application*************
+2021-09-06 22:03:41,363 [main] INFO nopCommerce - ***********Launch nopCommerce Application*************
+2021-09-06 22:03:45,253 - nopCommerce -INFO -***********Enter Login Details*************
+2021-09-06 22:03:45,253 [main] INFO nopCommerce - ***********Enter Login Details*************
+2021-09-06 22:03:45,966 - nopCommerce -INFO -***********Click Login button*************
+2021-09-06 22:03:45,966 [main] INFO nopCommerce - ***********Click Login button*************
+2021-09-06 22:03:54,527 - nopCommerce -INFO -***********Verify Page Title*************
+2021-09-06 22:03:54,527 [main] INFO nopCommerce - ***********Verify Page Title*************
+2021-09-06 22:03:57,564 - nopCommerce -INFO -***********Click Logout*************
+2021-09-06 22:03:57,564 [main] INFO nopCommerce - ***********Click Logout*************
+2021-09-06 22:04:04,613 - nopCommerce -INFO -***********Launch Chrome Browser*************
+2021-09-06 22:04:04,613 [main] INFO nopCommerce - ***********Launch Chrome Browser*************
+2021-09-06 22:04:04,815 - nopCommerce -INFO -***********Launch nopCommerce Application*************
+2021-09-06 22:04:04,815 [main] INFO nopCommerce - ***********Launch nopCommerce Application*************
+2021-09-06 22:04:08,411 - nopCommerce -INFO -***********Enter Login Details*************
+2021-09-06 22:04:08,411 [main] INFO nopCommerce - ***********Enter Login Details*************
+2021-09-06 22:04:09,101 - nopCommerce -INFO -***********Click Login button*************
+2021-09-06 22:04:09,101 [main] INFO nopCommerce - ***********Click Login button*************
+2021-09-06 22:04:13,064 - nopCommerce -INFO -***********Verify error message*************
+2021-09-06 22:04:13,064 [main] INFO nopCommerce - ***********Verify error message*************

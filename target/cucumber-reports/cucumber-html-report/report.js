@@ -78,7 +78,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 5331056200,
+  "duration": 3929052700,
   "status": "passed"
 });
 formatter.scenario({
@@ -136,7 +136,7 @@ formatter.match({
   "location": "LoginSteps.user_launch_Chrome_Browser()"
 });
 formatter.result({
-  "duration": 572147800,
+  "duration": 480345900,
   "status": "passed"
 });
 formatter.match({
@@ -149,7 +149,7 @@ formatter.match({
   "location": "LoginSteps.user_open_URL(String)"
 });
 formatter.result({
-  "duration": 2833078000,
+  "duration": 3896284900,
   "status": "passed"
 });
 formatter.match({
@@ -166,14 +166,14 @@ formatter.match({
   "location": "LoginSteps.user_enter_user_id_as_and_password_as(String,String)"
 });
 formatter.result({
-  "duration": 695760000,
+  "duration": 710852700,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.click_Login_button()"
 });
 formatter.result({
-  "duration": 9484321500,
+  "duration": 8559771000,
   "status": "passed"
 });
 formatter.match({
@@ -186,18 +186,18 @@ formatter.match({
   "location": "LoginSteps.page_title_should_be(String)"
 });
 formatter.result({
-  "duration": 3039261500,
+  "duration": 3035016600,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.click_logout_link()"
 });
 formatter.result({
-  "duration": 4347096600,
+  "duration": 4181217600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1446184000,
+  "duration": 931349100,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -267,7 +267,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 1981083600,
+  "duration": 1928839600,
   "status": "passed"
 });
 formatter.scenario({
@@ -317,7 +317,7 @@ formatter.match({
   "location": "LoginSteps.user_launch_Chrome_Browser()"
 });
 formatter.result({
-  "duration": 221309300,
+  "duration": 191002800,
   "status": "passed"
 });
 formatter.match({
@@ -330,7 +330,7 @@ formatter.match({
   "location": "LoginSteps.user_open_URL(String)"
 });
 formatter.result({
-  "duration": 2895938500,
+  "duration": 3594427800,
   "status": "passed"
 });
 formatter.match({
@@ -347,14 +347,14 @@ formatter.match({
   "location": "LoginSteps.user_enter_user_id_as_and_password_as(String,String)"
 });
 formatter.result({
-  "duration": 660465000,
+  "duration": 688456300,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.click_Login_button()"
 });
 formatter.result({
-  "duration": 4028181600,
+  "duration": 3962589500,
   "status": "passed"
 });
 formatter.match({
@@ -367,12 +367,12 @@ formatter.match({
   "location": "LoginSteps.verify_error_message_should_be(String)"
 });
 formatter.result({
-  "duration": 3133247400,
+  "duration": 3147801100,
   "error_message": "java.lang.AssertionError: expected [Login was unsuccessful. Please correct the errors and try again.The credentials provided are incorrect] but found [Login was unsuccessful. Please correct the errors and try again.\nThe credentials provided are incorrect]\r\n\tat org.testng.Assert.fail(Assert.java:93)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:512)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:134)\r\n\tat org.testng.Assert.assertEquals(Assert.java:115)\r\n\tat org.testng.Assert.assertEquals(Assert.java:189)\r\n\tat org.testng.Assert.assertEquals(Assert.java:199)\r\n\tat stepDefinitions.LoginSteps.verify_error_message_should_be(LoginSteps.java:130)\r\n\tat ✽.Then Verify error message should be \"Login was unsuccessful. Please correct the errors and try again.The credentials provided are incorrect\"(AdminLogin.feature:22)\r\n",
   "status": "failed"
 });
 formatter.after({
-  "duration": 1232087600,
+  "duration": 1268739600,
   "status": "passed"
 });
 });
