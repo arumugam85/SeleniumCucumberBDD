@@ -2,12 +2,12 @@ pipeline {
    agent any
 
    stages {
-      stage('Build') {
+      stage('Build Application') {
          steps {
             bat 'mvn -B compile'
          }
       }
-      stage('Test'){
+      stage('Test Run'){
           steps{
               bat 'mvn -B clean test'
               cucumber failedFeaturesNumber: -1, failedScenariosNumber: -1, failedStepsNumber: -1, fileIncludePattern: '**/*.json', pendingStepsNumber: -1, skippedStepsNumber: -1, sortingMethod: 'ALPHABETICAL', undefinedStepsNumber: -1
@@ -15,7 +15,7 @@ pipeline {
       }
       stage('Deploy'){
           steps{
-              archiveArtifacts 'target/*.jar'
+              echo 'Deploy Application'
           }
       }
    }
