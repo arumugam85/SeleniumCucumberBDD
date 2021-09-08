@@ -19,7 +19,7 @@ pipeline{
 
             steps {
 
-            sh "mvn clean test -Dcucumber.options=\"src/test/resources/features/ --tags @demo\""}
+            sh "mvn clean test -Dcucumber.options="src/test/resources/features/ --tags @demo\""}
 
                 }
 
@@ -29,7 +29,7 @@ pipeline{
 
         finally {
                            cucumber buildStatus: "UNSTABLE", 
-                           fileIncludePattern: "**/cucumber.json",
+                           fileIncludePattern: "target/cucumber-reports/CucumberTestReport.json",
                            jsonReportDirectory: 'target'
                             }
 
