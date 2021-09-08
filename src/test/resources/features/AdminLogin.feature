@@ -19,7 +19,7 @@ Feature: Login Validation
     When User open URL "https://admin-demo.nopcommerce.com/"
     And User enter user id as "<email>" and password as "<password>"
     When Click Login button
-    Then Verify error message should be "Login was unsuccessful. Please correct the errors and try again."
+    Then Verify error message should be "Login was unsuccessful. Please correct the errors and try again.The credentials provided are incorrect"
 
     Examples: 
       | email               | password | title                                  |
