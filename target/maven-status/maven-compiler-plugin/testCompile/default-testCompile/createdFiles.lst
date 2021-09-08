@@ -1,5 +1,0 @@
-stepDefinitions\LoginSteps.class
-pageObjects\LoginPage.class
-testRunner\TestRunner.class
-stepDefinitions\BaseClass.class
-utilities\ConfigFileReader.class

@@ -1,246 +1,284 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/AdminLogin.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("AdminLogin.feature");
 formatter.feature({
+  "line": 1,
   "name": "Login Validation",
   "description": "",
+  "id": "login-validation",
   "keyword": "Feature"
 });
 formatter.scenarioOutline({
+  "line": 4,
   "name": "Successful Login with Valid credentials",
   "description": "",
+  "id": "login-validation;successful-login-with-valid-credentials",
+  "type": "scenario_outline",
   "keyword": "Scenario Outline",
   "tags": [
     {
+      "line": 3,
       "name": "@demo"
     }
   ]
 });
 formatter.step({
+  "line": 5,
   "name": "User launch Chrome Browser",
   "keyword": "Given "
 });
 formatter.step({
+  "line": 6,
   "name": "User open URL \"https://admin-demo.nopcommerce.com/\"",
   "keyword": "When "
 });
 formatter.step({
+  "line": 7,
   "name": "User enter user id as \"\u003cemail\u003e\" and password as \"\u003cpassword\u003e\"",
   "keyword": "And "
 });
 formatter.step({
+  "line": 8,
   "name": "Click Login button",
   "keyword": "When "
 });
 formatter.step({
+  "line": 9,
   "name": "Page title should be \"\u003ctitle\u003e\"",
   "keyword": "And "
 });
 formatter.step({
+  "line": 10,
   "name": "Click logout link",
   "keyword": "When "
 });
-formatter.step({
-  "name": "Close your browser",
-  "keyword": "And "
-});
 formatter.examples({
+  "line": 12,
   "name": "",
   "description": "",
-  "keyword": "Examples",
+  "id": "login-validation;successful-login-with-valid-credentials;",
   "rows": [
     {
       "cells": [
         "email",
         "password",
         "title"
-      ]
+      ],
+      "line": 13,
+      "id": "login-validation;successful-login-with-valid-credentials;;1"
     },
     {
       "cells": [
         "admin@yourstore.com",
         "admin",
         "Dashboard / nopCommerce administration"
-      ]
+      ],
+      "line": 14,
+      "id": "login-validation;successful-login-with-valid-credentials;;2"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.scenario({
+  "line": 14,
+  "name": "Successful Login with Valid credentials",
+  "description": "",
+  "id": "login-validation;successful-login-with-valid-credentials;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 3,
+      "name": "@demo"
+    }
+  ]
+});
+formatter.step({
+  "line": 5,
+  "name": "User launch Chrome Browser",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 6,
+  "name": "User open URL \"https://admin-demo.nopcommerce.com/\"",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 7,
+  "name": "User enter user id as \"admin@yourstore.com\" and password as \"admin\"",
+  "matchedColumns": [
+    0,
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 8,
+  "name": "Click Login button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 9,
+  "name": "Page title should be \"Dashboard / nopCommerce administration\"",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "Click logout link",
+  "keyword": "When "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.scenarioOutline({
+  "line": 17,
+  "name": "Login failed with Invalid credentials",
+  "description": "",
+  "id": "login-validation;login-failed-with-invalid-credentials",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 16,
+      "name": "@demo"
+    }
+  ]
+});
+formatter.step({
+  "line": 18,
+  "name": "User launch Chrome Browser",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 19,
+  "name": "User open URL \"https://admin-demo.nopcommerce.com/\"",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 20,
+  "name": "User enter user id as \"\u003cemail\u003e\" and password as \"\u003cpassword\u003e\"",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 21,
+  "name": "Click Login button",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 22,
+  "name": "Verify error message should be \"Login was unsuccessful. Please correct the errors and try again.\"",
+  "keyword": "Then "
+});
+formatter.examples({
+  "line": 24,
+  "name": "",
+  "description": "",
+  "id": "login-validation;login-failed-with-invalid-credentials;",
+  "rows": [
+    {
+      "cells": [
+        "email",
+        "password",
+        "title"
+      ],
+      "line": 25,
+      "id": "login-validation;login-failed-with-invalid-credentials;;1"
     },
     {
       "cells": [
-        "admin123",
-        "admin",
+        "admin@yourstore.com",
+        "adm",
         "Dashboard / nopCommerce administration"
-      ]
+      ],
+      "line": 26,
+      "id": "login-validation;login-failed-with-invalid-credentials;;2"
     }
-  ]
+  ],
+  "keyword": "Examples"
 });
 formatter.scenario({
-  "name": "Successful Login with Valid credentials",
+  "line": 26,
+  "name": "Login failed with Invalid credentials",
   "description": "",
+  "id": "login-validation;login-failed-with-invalid-credentials;;2",
+  "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
     {
+      "line": 16,
       "name": "@demo"
     }
   ]
 });
-formatter.before({
-  "status": "passed"
-});
 formatter.step({
+  "line": 18,
   "name": "User launch Chrome Browser",
   "keyword": "Given "
 });
-formatter.match({
-  "location": "stepDefinitions.LoginSteps.user_launch_Chrome_Browser()"
-});
-formatter.result({
-  "status": "passed"
-});
 formatter.step({
+  "line": 19,
   "name": "User open URL \"https://admin-demo.nopcommerce.com/\"",
   "keyword": "When "
 });
-formatter.match({
-  "location": "stepDefinitions.LoginSteps.user_open_URL(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
 formatter.step({
-  "name": "User enter user id as \"admin@yourstore.com\" and password as \"admin\"",
+  "line": 20,
+  "name": "User enter user id as \"admin@yourstore.com\" and password as \"adm\"",
+  "matchedColumns": [
+    0,
+    1
+  ],
   "keyword": "And "
 });
-formatter.match({
-  "location": "stepDefinitions.LoginSteps.user_enter_user_id_as_and_password_as(java.lang.String,java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
 formatter.step({
+  "line": 21,
   "name": "Click Login button",
   "keyword": "When "
 });
-formatter.match({
-  "location": "stepDefinitions.LoginSteps.click_Login_button()"
-});
-formatter.result({
-  "status": "passed"
-});
 formatter.step({
-  "name": "Page title should be \"Dashboard / nopCommerce administration\"",
-  "keyword": "And "
+  "line": 22,
+  "name": "Verify error message should be \"Login was unsuccessful. Please correct the errors and try again.\"",
+  "keyword": "Then "
 });
-formatter.match({
-  "location": "stepDefinitions.LoginSteps.page_title_should_be(java.lang.String)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.step({
-  "name": "Click logout link",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "stepDefinitions.LoginSteps.click_logout_link()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.step({
-  "name": "Close your browser",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepDefinitions.LoginSteps.close_your_browser()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.after({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "Successful Login with Valid credentials",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@demo"
-    }
-  ]
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User launch Chrome Browser",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "stepDefinitions.LoginSteps.user_launch_Chrome_Browser()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.step({
-  "name": "User open URL \"https://admin-demo.nopcommerce.com/\"",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "stepDefinitions.LoginSteps.user_open_URL(java.lang.String)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User enter user id as \"admin123\" and password as \"admin\"",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepDefinitions.LoginSteps.user_enter_user_id_as_and_password_as(java.lang.String,java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click Login button",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "stepDefinitions.LoginSteps.click_Login_button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Page title should be \"Dashboard / nopCommerce administration\"",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepDefinitions.LoginSteps.page_title_should_be(java.lang.String)"
-});
-formatter.result({
-  "error_message": "org.junit.ComparisonFailure: expected:\u003c[Dashboard / nopCommerce administratio]n\u003e but was:\u003c[Your store. Logi]n\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat stepDefinitions.LoginSteps.page_title_should_be(LoginSteps.java:86)\r\n\tat ✽.Page title should be \"Dashboard / nopCommerce administration\"(file:///C:/Users/Arumugam/eclipse-workspace/DemoTourSele_Cucumber/src/test/resources/features/AdminLogin.feature:9)\r\n",
-  "status": "failed"
-});
-formatter.step({
-  "name": "Click logout link",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "stepDefinitions.LoginSteps.click_logout_link()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.step({
-  "name": "Close your browser",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepDefinitions.LoginSteps.close_your_browser()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.after({
-  "status": "passed"
+  "status": "undefined"
 });
 });

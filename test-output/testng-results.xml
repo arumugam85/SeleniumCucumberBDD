@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="70589" started-at="2021-09-07T22:57:07Z" finished-at="2021-09-07T22:58:18Z">
+  <suite name="Default suite" duration-ms="1161" started-at="2021-09-08T01:17:39Z" finished-at="2021-09-08T01:17:40Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.TestRunner@35d176f7]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="70589" started-at="2021-09-07T22:57:07Z" finished-at="2021-09-07T22:58:18Z">
+    <test name="Default test" duration-ms="1161" started-at="2021-09-08T01:17:39Z" finished-at="2021-09-08T01:17:40Z">
       <class name="testRunner.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testRunner.TestRunner@35d176f7]" name="setUpClass" is-config="true" duration-ms="572" started-at="2021-09-07T18:57:08Z" finished-at="2021-09-07T18:57:08Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testRunner.TestRunner@35d176f7]" name="setUpClass" is-config="true" duration-ms="636" started-at="2021-09-07T21:17:39Z" finished-at="2021-09-07T21:17:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.TestRunner@35d176f7]" name="feature" duration-ms="69752" started-at="2021-09-07T18:57:08Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-09-07T18:58:18Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.TestRunner@35d176f7]" name="feature" duration-ms="137" started-at="2021-09-07T21:17:40Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-09-07T21:17:40Z">
           <params>
             <param index="0">
               <value>
@@ -22,58 +22,10 @@
               </value>
             </param>
           </params>
-          <exception class="cucumber.runtime.CucumberException">
-            <message>
-              <![CDATA[java.lang.AssertionError: expected [Login was unsuccessful. Please correct the errors and try again.The credentials provided are incorrect] but found [Login was unsuccessful. Please correct the errors and try again.
-The credentials provided are incorrect]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[cucumber.runtime.CucumberException: java.lang.AssertionError: expected [Login was unsuccessful. Please correct the errors and try again.The credentials provided are incorrect] but found [Login was unsuccessful. Please correct the errors and try again.
-The credentials provided are incorrect]
-	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
-	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-Caused by: java.lang.AssertionError: expected [Login was unsuccessful. Please correct the errors and try again.The credentials provided are incorrect] but found [Login was unsuccessful. Please correct the errors and try again.
-The credentials provided are incorrect]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
-	at org.testng.Assert.assertEquals(Assert.java:115)
-	at org.testng.Assert.assertEquals(Assert.java:189)
-	at org.testng.Assert.assertEquals(Assert.java:199)
-	at stepDefinitions.LoginSteps.verify_error_message_should_be(LoginSteps.java:123)
-	at ✽.Then Verify error message should be "Login was unsuccessful. Please correct the errors and try again.The credentials provided are incorrect"(AdminLogin.feature:22)
-]]>
-            </full-stacktrace>
-          </exception> <!-- cucumber.runtime.CucumberException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@35d176f7]" name="tearDownClass" is-config="true" duration-ms="42" started-at="2021-09-07T18:58:18Z" finished-at="2021-09-07T18:58:18Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@35d176f7]" name="tearDownClass" is-config="true" duration-ms="166" started-at="2021-09-07T21:17:40Z" finished-at="2021-09-07T21:17:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
