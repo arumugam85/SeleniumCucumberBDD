@@ -13,9 +13,9 @@ pipeline {
               cucumber failedFeaturesNumber: -1, failedScenariosNumber: -1, failedStepsNumber: -1, fileIncludePattern: '**/*.json', pendingStepsNumber: -1, skippedStepsNumber: -1, sortingMethod: 'ALPHABETICAL', undefinedStepsNumber: -1
               }
       }
-      stage('Archive'){
+      stage('Deploy'){
           steps{
-              archiveArtifacts 'target/*.jar'
+              archiveArtifacts 'target'
           }
       }
    }
