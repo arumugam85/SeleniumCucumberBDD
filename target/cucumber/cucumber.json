@@ -1,0 +1,276 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 14691687600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Successful Login with Valid credentials",
+        "description": "",
+        "id": "login-validation;successful-login-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1897524500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2682287500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User launch Chrome Browser",
+            "match": {
+              "location": "LoginSteps.user_launch_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5517386401,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User open URL \"https://admin-demo.nopcommerce.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://admin-demo.nopcommerce.com/",
+                  "offset": 15
+                }
+              ],
+              "location": "LoginSteps.user_open_URL(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2797948400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter user id as \"admin@yourstore.com\" and password as \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin@yourstore.com",
+                  "offset": 23
+                },
+                {
+                  "val": "admin",
+                  "offset": 61
+                }
+              ],
+              "location": "LoginSteps.user_enter_user_id_as_and_password_as(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13990381900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click Login button",
+            "match": {
+              "location": "LoginSteps.click_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3074331900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Page title should be \"Dashboard / nopCommerce administration\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dashboard / nopCommerce administration",
+                  "offset": 22
+                }
+              ],
+              "location": "LoginSteps.page_title_should_be(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5334723900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click logout link",
+            "match": {
+              "location": "LoginSteps.click_logout_link()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@demo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6937479000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.setup()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Login failed with Invalid credentials",
+        "description": "",
+        "id": "login-validation;login-failed-with-invalid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1737458400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 440985400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User launch Chrome Browser",
+            "match": {
+              "location": "LoginSteps.user_launch_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6125794201,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User open URL \"https://admin-demo.nopcommerce.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://admin-demo.nopcommerce.com/",
+                  "offset": 15
+                }
+              ],
+              "location": "LoginSteps.user_open_URL(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1939791700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enter user id as \"admin@yourstore.com\" and password as \"adm\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin@yourstore.com",
+                  "offset": 23
+                },
+                {
+                  "val": "adm",
+                  "offset": 61
+                }
+              ],
+              "location": "LoginSteps.user_enter_user_id_as_and_password_as(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4839662599,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Click Login button",
+            "match": {
+              "location": "LoginSteps.click_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3441711700,
+              "error_message": "java.lang.AssertionError: expected [Login was unsuccessful. Please correct the errors and try again.] but found [Login was unsuccessful. Please correct the errors and try again.\nThe credentials provided are incorrect]\r\n\tat org.testng.Assert.fail(Assert.java:93)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:512)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:134)\r\n\tat org.testng.Assert.assertEquals(Assert.java:115)\r\n\tat org.testng.Assert.assertEquals(Assert.java:189)\r\n\tat org.testng.Assert.assertEquals(Assert.java:199)\r\n\tat stepDefinitions.LoginSteps.verify_error_message_should_be(LoginSteps.java:123)\r\n\tat ✽.Then Verify error message should be \"Login was unsuccessful. Please correct the errors and try again.\"(AdminLogin.feature:22)\r\n",
+              "status": "failed"
+            },
+            "line": 22,
+            "name": "Verify error message should be \"Login was unsuccessful. Please correct the errors and try again.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login was unsuccessful. Please correct the errors and try again.",
+                  "offset": 32
+                }
+              ],
+              "location": "LoginSteps.verify_error_message_should_be(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@demo"
+          }
+        ]
+      }
+    ],
+    "name": "Login Validation",
+    "description": "",
+    "id": "login-validation",
+    "keyword": "Feature",
+    "uri": "AdminLogin.feature"
+  }
+]
