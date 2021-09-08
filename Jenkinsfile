@@ -1,38 +1,22 @@
-pipeline{
+pipeline {
+   agent any
 
-    agent any
-
-    stages {
-
-        stage ('Compile Stage') {
-
-            steps {
-
-                withMaven(maven: 'maven_3_5_0') {
-                    sh 'mvn clean install'
-
-                }
-
-            }
-        }
-    stage ('Test Stage') {
-
-            steps {
-
-            sh "mvn clean test"            
-
-                }
-
-            }
-        }
-
-
-        finally {
-                           cucumber buildStatus: "UNSTABLE", 
-                           fileIncludePattern: "target/cucumber/cucumber.json",
-                           jsonReportDirectory: 'target'
-                            }
-
-    }
-
+   stages {
+      stage('Build') {
+         steps {
+            bat 'mvn -B compile'
+         }
+      }
+      stage('Test'){
+          steps{
+              bat 'mvn -B clean test'
+              cucumber failedFeaturesNumber: -1, failedScenariosNumber: -1, failedStepsNumber: -1, fileIncludePattern: '**/*.json', pendingStepsNumber: -1, skippedStepsNumber: -1, sortingMethod: 'ALPHABETICAL', undefinedStepsNumber: -1
+              }
+      }
+      stage('Archive'){
+          steps{
+              archiveArtifacts 'target/*.jar'
+          }
+      }
+   }
 }
