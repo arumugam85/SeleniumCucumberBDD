@@ -19,8 +19,7 @@ pipeline{
 
             steps {
 
-                withMaven(maven: 'maven_3_5_0') {
-                    sh 'mvn test'
+            sh "mvn clean test -Dcucumber.options=\"src/test/resources/features/ --tags @demo\""}
 
                 }
 
@@ -28,16 +27,11 @@ pipeline{
         }
 
 
-        stage ('Cucumber Reports') {
-
-            steps {
-                cucumber buildStatus: "UNSTABLE",
-                    fileIncludePattern: "**/cucumber.json",
-                    jsonReportDirectory: 'target'
-
-            }
-
-        }
+        finally {
+                           cucumber buildStatus: "UNSTABLE", 
+                           fileIncludePattern: "**/cucumber.json",
+                           jsonReportDirectory: 'target'
+                            }
 
     }
 
